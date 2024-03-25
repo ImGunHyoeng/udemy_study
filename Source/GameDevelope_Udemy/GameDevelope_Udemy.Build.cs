@@ -8,7 +8,7 @@ public class GameDevelope_Udemy : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore","GameDevelope_Udemy" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
